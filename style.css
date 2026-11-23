@@ -1,0 +1,98 @@
+body {
+   font-family: Quicksand, sans-serif;
+   margin: 0px;
+   padding: 0px;
+}
+
+h1 {
+    
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 2px;
+    margin: 0px;
+    padding: 20px;
+    color: white;
+    background-color: #142850;
+}
+
+.navigasi {
+    position: sticky;
+    top: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #27496D;
+    overflow: hidden; /*memastikan background membungkus elemen di dalamya */
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 100px;
+    color: white;
+    display: block; /*link menjadi kotak utuh penuh dan paddingnya berfungsi */
+}
+
+ul li a:hover {
+    color: #142850;
+    background-color: white;
+    transition: 0.3s; /*transisi tiap navigasi */
+}
+
+.hero-section {
+    width: 100%;
+    max-width: 1600px;
+    height: 400px;
+    object-fit: cover; /*membuat gambar tidak gepeng, seperti gambar aslinya, tetapi gambarnya menjadi kepootng */
+}
+
+.content {
+    padding: 20px 100px;
+    max-width: 1000px;
+}
+
+.content-galeri {
+    padding: 20px 100px;
+    max-width: 800px;
+}
+
+.image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 8px;
+    display: block; /*menghilangkan celah spasi default */
+}
+
+h2 {
+    font-family: Redaction, serif;
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #142850;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 30px;
+    padding: 5px;
+    color: white;
+    background-color: #142850;
+}
